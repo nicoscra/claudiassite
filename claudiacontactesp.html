@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Roboto+Condensed:ital,wght@0,300;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Art Claudia Cota</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row justify-content-end">
+
+                <div class="col-sm-2 btn-group" id="langbtn">
+
+                    <a class="btn" data-toggle="tooltip" title="English" href="claudiacontact.html" role="btn" alt="English"><img
+                            src="img/american-flag-lang.png" height="30px" width="30px" id="english"></a>
+
+                    <a class="btn" data-toggle="tooltip" title="Español" href="x" role="btn" alt="Español"><img
+                            src="img/mexican-flag-lang.png" height="30px" width="30px" id="spanish"></a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+  
+
+    <div class="container-fluid">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-4">
+                <nav class="navbar navbar-light navbar-expand-sm sticky-top">
+                    <ul class="navbar-nav flex-sm-nowrap">
+                        <li class="nav-item-active"><a class="nav-link btn-sm" href="claudiaindexesp.html"><img src="img/home.png"
+                                    class="img-fluid" alt="Home Button" data-toggle="tooltip" title="Casa">
+                                </a>
+                        </li>
+                        <li class="nav-item-active"><a class="nav-link" href="claudiaportofolioesp.html" role="btn"><img
+                                    src="img/portfolio.png" class="img-fluid" alt="Portfolio Button"
+                                    data-toggle="tooltip" title="Portfolio"></a>
+                        </li>
+                        <li class="nav-item-active"><a class="nav-link" href="#" role="btn"><img src="img/info.png"
+                                    class="img-fluid" alt="Info Button" data-toggle="tooltip"
+                                    title="Contacto"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-content">
+        <div class="col-12">
+            <h2>Contacta Me</h2>
+            <h4>Da me un idea de arte</h4>
+        </div>
+        <div class="col-md-10">
+            <form id="form">
+                <div class="form-group row" >
+                    <label for="nombre" class="col-md-2 col-form-label">Nombre</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="firstName" name="firstName"
+                            placeholder="Primero Nombre" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="lastName" class="col-md-2 col-form-label">Apelido</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="lastName" name="lastName"
+                            placeholder="Apelido" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="areaCode" class="col-md-2 col-form-label">Codigo</label>
+                    <div class="col-5 col-md-3">
+                        <input type="tel" class="form-control" id="areaCode" name="areaCode"
+                            placeholder="Codigo" />
+                    </div>
+                    <div class="col-7">
+                        <input type="tel" class="form-control" name="telNum" placeholder="Numero de Telefono" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="email" class="col-md-2 col-form-label">Correo Electronico</label>
+                    <div class="col-md-10">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Correo Electronico" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col offset-md-2">
+                        Podemos contactar usted?
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" id="contactYes" name="contactRadios"
+                                value="yes" />
+                            <label for="contactYes" class="form-check-label">Si</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" id="contactNo" name="contactRadios"
+                                value="no" />
+                            <label for="contactNo" class="form-check-label">No</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="feedback" class="col-md-2 col-form-label">Su Idea de Arte</label>
+                    <div class="col-md-10">
+                        <textarea class="form-control" id="artidea" name="artidea" rows="8"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="offset-md-2 col-md-10">
+                        <button type="submit" class="btn btn-light">Manda</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row ">
+            <div class="col-4 col-sm-2 offset-1">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="claudiaindexesp.html">Casa</a></li>
+                    <li><a href="claudiaportofolioesp.html">Portfolio</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-5 text-center">
+                <h5>Social</h5>
+                <a class="btn btn-social-icon btn-instagram"
+                    href="http://www.instagram.com/artclaudiacota/" target="_blank"><i
+                        class="fa fa-instagram"></i></a>
+                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/artclaudiacota"
+                    target="_blank"><i class="fa fa-facebook"></i></a>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="scripts/scripts.js"></script>
+</body>
+
+</html>

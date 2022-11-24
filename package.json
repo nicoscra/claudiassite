@@ -1,0 +1,33 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "Claudia's Art Site",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoscra/claudiassite.git"
+  },
+  "keywords": [
+    "Claudia's",
+    "Website"
+  ],
+  "author": "Nicholas Scramuzza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoscra/claudiassite/issues"
+  },
+  "homepage": "https://github.com/nicoscra/claudiassite#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
