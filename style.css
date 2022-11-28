@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+}
+    
+
+
+
+#langbtn {
+    margin-right: 0;
+}
+
+
+
+h1 {
+    font-family: 'Caveat', cursive;
+    color: aliceblue;
+}
+
+h2, #biography, h4, h5, #form, #resume {
+    color:aliceblue;
+}
+
+h5 { 
+    margin: 0;
+    padding: 30px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .carousel {
+    border: solid gray;
+  }
+
+  #carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+  }
+  
