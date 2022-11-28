@@ -2,7 +2,7 @@
   "name": "c",
   "version": "1.0.0",
   "description": "Claudia's Art Site",
-  "main": "index.html",
+  "main": "claudiaindex.html",
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
